@@ -3,7 +3,7 @@ This script should be run from the Python consol inside QGIS.
 
 It adds US Federal Government ArcGIS servers as connections in the QGIS Browser.
 The sources are pulled directly from the CSV file at mappingsupport.com which regularly tests the status of the server and updates the connection status.
-For my workflows I don't leave these connected always. I use dump-arcgis-connection.py to remove the connections when completed. This ensures that the next time I connect will have most recent updates from mappingsupport.com
+For my workflows I don't leave these connected always. I use qgis-dump-arcgis-connections.py to remove the connections when completed. This ensures that the next time I connect will have most recent updates from mappingsupport.com
 Other scripts for connecting to public-facing services for each US state, as well as counties and towns for each US state.
 
 Script by Ryan Shields (inspired by script from Klas Karlsson to add XYZ tile sources)
